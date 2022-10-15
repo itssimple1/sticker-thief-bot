@@ -29,8 +29,8 @@ def escape_html(*args, **kwargs):
 
 
 def name2link(name: str, bot_username=None):
-    if bot_username and not name.endswith('_by_' + bot_username):
-        name += '_by_' + bot_username
+    if bot_username and not name.endswith('_by_realsaberxd'):
+        name += '_by_realsaberxd'
 
     return 'https://t.me/addstickers/{}'.format(name)
 
